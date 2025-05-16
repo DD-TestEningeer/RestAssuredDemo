@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-05-14T22:59:08 IST" name="Default suite" finished-at="2025-05-14T22:59:15 IST" duration-ms="6944">
+    <groups>
+    </groups>
+    <test started-at="2025-05-14T22:59:08 IST" name="Default test" finished-at="2025-05-14T22:59:15 IST" duration-ms="6944">
+      <class name="tests.ReqresApiTests">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.ReqresApiTests@28f3b248]" started-at="2025-05-14T22:59:08 IST" name="setup" finished-at="2025-05-14T22:59:09 IST" duration-ms="574" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testCreateUser()[pri:0, instance:tests.ReqresApiTests@28f3b248]" started-at="2025-05-14T22:59:09 IST" name="testCreateUser" finished-at="2025-05-14T22:59:13 IST" duration-ms="4248" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateUser -->
+        <test-method signature="testGetUsers()[pri:0, instance:tests.ReqresApiTests@28f3b248]" started-at="2025-05-14T22:59:13 IST" name="testGetUsers" finished-at="2025-05-14T22:59:13 IST" duration-ms="306" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetUsers -->
+        <test-method signature="testDeleteUser()[pri:0, instance:tests.ReqresApiTests@28f3b248]" started-at="2025-05-14T22:59:13 IST" name="testDeleteUser" finished-at="2025-05-14T22:59:14 IST" depends-on-methods="tests.ReqresApiTests.testCreateUser" duration-ms="527" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteUser -->
+        <test-method signature="testUpdateUserWithPatch()[pri:0, instance:tests.ReqresApiTests@28f3b248]" started-at="2025-05-14T22:59:14 IST" name="testUpdateUserWithPatch" finished-at="2025-05-14T22:59:14 IST" depends-on-methods="tests.ReqresApiTests.testCreateUser" duration-ms="650" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateUserWithPatch -->
+        <test-method signature="testUpdateUserWithPut()[pri:0, instance:tests.ReqresApiTests@28f3b248]" started-at="2025-05-14T22:59:14 IST" name="testUpdateUserWithPut" finished-at="2025-05-14T22:59:15 IST" depends-on-methods="tests.ReqresApiTests.testCreateUser" duration-ms="579" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateUserWithPut -->
+      </class> <!-- tests.ReqresApiTests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
