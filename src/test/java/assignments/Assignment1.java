@@ -45,6 +45,11 @@ public class Assignment1 {
 
 	}
 	
+	
+	
+	
+	
+	
 	@Test(priority = 2)
 	public void addNewPetToStore() {
 		
@@ -53,6 +58,8 @@ public class Assignment1 {
 		
 		
 		String jsonBody = "{\"id\":222,\"category\":{\"id\":22,\"name\":\"cat\"},\"name\":\"cat\",\"photoUrls\":[\"string\"],\"tags\":[{\"id\":0,\"name\":\"cat\"}],\"status\":\"available\"}";
+		
+		
 		
 		
 		Response response = RestAssured 

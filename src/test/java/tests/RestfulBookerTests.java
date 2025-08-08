@@ -38,6 +38,9 @@ public class RestfulBookerTests {
         
         System.out.println("The token value : " + token);
     }
+    
+    
+    
 
     @Test (priority = 1)
     public void testCreateBooking() {

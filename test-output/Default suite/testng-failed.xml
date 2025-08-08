@@ -5,9 +5,9 @@
     <classes>
       <class name="assignments.Assignment1">
         <methods>
+          <include name="getPetDetails"/>
           <include name="addNewPetToStore"/>
           <include name="tearDown"/>
-          <include name="deletePetWithSameID"/>
           <include name="setUp"/>
         </methods>
       </class> <!-- assignments.Assignment1 -->

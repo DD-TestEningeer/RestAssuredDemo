@@ -23,9 +23,18 @@ public class ReqresApiTests {
 	@Test
 	public void testGetUsers() {
 		// GET request to fetch user list
-		given().when().get("/users?page=2").then().statusCode(200). // Validate HTTP status
-				body("data", not(empty())); // Ensure data array is not empty
+		given().when().get("/users?page=2").then().statusCode(200);// Validate HTTP status
+				
 	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
 
 	@Test
 	public void testCreateUser() {

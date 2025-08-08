@@ -72,7 +72,10 @@ public class JSONBodyTest {
 
 		// using string variable => small/simples request body
 
-		String jsonBody = "{\r\n" + "  \"name\": \"morpheus\",\r\n" + "  \"job\": \"leader\"\r\n" + "}";
+		String jsonBody = "{\r\n"
+				+ "    \"name\": \"morpheus\",\r\n"
+				+ "    \"job\": \"leader\"\r\n"
+				+ "}";
 
 		Response response = RestAssured
 
@@ -106,7 +109,7 @@ public class JSONBodyTest {
 
 		// using HashMap
 
-//		String jsonBody = "{\r\n" + "  \"name\": \"morpheus\",\r\n" + "  \"job\": \"leader\"\r\n" + "}";
+//		String jsonBody = "{\r\n" + "  \"name\": \"dd\",\r\n" + "  \"job\": \"QA\"\r\n" + "}";
 
 		// complex body data or vary the data
 
