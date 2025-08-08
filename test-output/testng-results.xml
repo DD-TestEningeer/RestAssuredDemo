@@ -1,17 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="2" total="3" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-08-07T22:42:52 IST" name="Default suite" finished-at="2025-08-07T22:42:58 IST" duration-ms="5467">
+  <suite started-at="2025-08-08T12:02:29 IST" name="Default suite" finished-at="2025-08-08T12:02:35 IST" duration-ms="6014">
     <groups>
     </groups>
-    <test started-at="2025-08-07T22:42:52 IST" name="Default test" finished-at="2025-08-07T22:42:58 IST" duration-ms="5467">
-      <class name="users.GetUserTest2">
-        <test-method signature="getUserDetails1()[pri:0, instance:users.GetUserTest2@45c8d09f]" started-at="2025-08-07T22:42:52 IST" name="getUserDetails1" finished-at="2025-08-07T22:42:58 IST" duration-ms="5374" status="PASS">
+    <test started-at="2025-08-08T12:02:29 IST" name="Default test" finished-at="2025-08-08T12:02:35 IST" duration-ms="6014">
+      <class name="assignments.Assignment3">
+        <test-method is-config="true" signature="setup()[pri:0, instance:assignments.Assignment3@57d7f8ca]" started-at="2025-08-08T12:02:29 IST" name="setup" finished-at="2025-08-08T12:02:30 IST" duration-ms="744" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getUserDetails1 -->
-      </class> <!-- users.GetUserTest2 -->
+        </test-method> <!-- setup -->
+        <test-method signature="verifyOAuthAuthentication()[pri:0, instance:assignments.Assignment3@57d7f8ca]" started-at="2025-08-08T12:02:30 IST" name="verifyOAuthAuthentication" finished-at="2025-08-08T12:02:35 IST" duration-ms="5214" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyOAuthAuthentication -->
+      </class> <!-- assignments.Assignment3 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
